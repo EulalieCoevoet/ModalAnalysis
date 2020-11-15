@@ -26,6 +26,9 @@ function [V,F,U,q] = computeModalBasis(filename, varargin)
 
 ## Requirements
  1- Install tetgen: http://wias-berlin.de/software/tetgen/ 
+ 2- Download and add to Matlab path: https://github.com/alecjacobson/gptoolbox
+ 3- Change the path to tetgen in gptoolbox/wrappers/path_to_tetgen.m
+ 4- Matlab Add-on: Automated Driving Toolbox (to plot meshes)
  
 ## Examples
 
