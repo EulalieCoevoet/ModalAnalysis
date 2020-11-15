@@ -1,4 +1,8 @@
-# Information
+# Modal Analysis
+
+Matlab code for modal analysis of 3D objects.
+
+## Information
 
 ```
 function [V,F,U,q] = computeModalBasis(filename, varargin)
