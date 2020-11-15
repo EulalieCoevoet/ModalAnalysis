@@ -16,7 +16,7 @@ function visualizeMode(V,F,U,q,index)
         UX = U*L;
         UX = [UX(1:3:N*3),UX(2:3:N*3),UX(3:3:N*3)] ;
         X=V+UX;
-        plotMesh(X,F);
+        plot_mesh(X,F);
         pause(0.1);
         t = t + 0.1;
     end
